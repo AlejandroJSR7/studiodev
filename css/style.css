@@ -1,191 +1,191 @@
 *{box-sizing: border-box;}
 
 body{
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	line-height: 1.6;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 header{
-	background-color: rgba(48,48,48, 0.5);
-	padding: 10px 0;
-	position: fixed;
-	width: 100%;
+  background-color: rgba(48,48,48, 0.5);
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
 }
 
 header img{
-	width: 200px;
+  width: 200px;
 }
 
 header nav{
-	float: right;
-	margin-top: 10px;
+  float: right;
+  margin-top: 10px;
 }
 
 header nav ul{
-	list-style: none;
+  list-style: none;
 }
 
 header nav ul li{
-	display: inline-block;
-	margin-left: 10px;
+  display: inline-block;
+  margin-left: 10px;
 }
 
 header nav a{
-	color: white;
-	font-weight: bold;
-	text-decoration: none;
-	text-transform: uppercase;
-	padding: 10px 15px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 15px;
 }
 
 header nav .active{
-	background: #fed136;
-	border-radius: 3px;
+  background: #fed136;
+  border-radius: 3px;
 }
 
 section{
-	padding: 80px 0;
+  padding: 80px 0;
 }
 
 section h2{
-	font-size: 32px;
-	text-align: center;
-	margin-bottom: 80px;
-	text-transform: uppercase;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 80px;
+  text-transform: uppercase;
 }
 
 #home{
-	text-align: center;
-	padding: 200px 0 150px;
+  text-align: center;
+  padding: 200px 0 150px;
 }
 
 #home h1{
-	font-size: 68px;
-	font-weight: normal;
-	line-height: 1.2;
-	margin-bottom: 40px;
-	text-transform: uppercase;
+  font-size: 68px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  text-transform: uppercase;
 }
 
 #home .divider{
-	border-top: 5px solid #fed136;
-	margin: 0 auto;
-	width: 80px;
+  border-top: 5px solid #fed136;
+  margin: 0 auto;
+  width: 80px;
 }
 
 #home p{
-	font-size: 24px;
-	margin-top: 40px;
+  font-size: 24px;
+  margin-top: 40px;
 }
 
 #home .social{
-	margin-top: 80px;
+  margin-top: 80px;
 }
 
 #home .social a{
-	background: #000;
-	border-radius: 50%;
-	color: white;
-	display: inline-block;
-	font-size: 24px;
-	font-weight: bold;
-	height: 50px;
-	line-height: 50px;
-	margin-right: 10px;
-	transition: background 0.2s;
-	width: 50px;
+  background: #000;
+  border-radius: 50%;
+  color: white;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 10px;
+  transition: background 0.2s;
+  width: 50px;
 }
 
 #home .social a:hover{
-	background-color: #fed136;
+  background-color: #fed136;
 }
 
 #servicios .box{
-	display: inline-block;
-	padding: 10px;
-	text-align: center;
-	width: 33%;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  width: 33%;
 }
 
 #video{
-	background-color: black;
-	padding: 30px 0;
-	text-align: center;
+  background-color: black;
+  padding: 30px 0;
+  text-align: center;
 }
 
 #portafolio{
-	background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 
 #portafolio .box{
-	background-color: white;
-	display: inline-block;
-	text-align: center;
-	width: 31%;
-	margin: 1%;
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+  width: 31%;
+  margin: 1%;
 }
 
 #portafolio .box img{
-	width: 100%;
+  width: 100%;
 }
 
 #portafolio .box p{
-	color: #666666;
-	padding: 10px;
+  color: #666666;
+  padding: 10px;
 }
 
 #contacto{
-	background-color: #303030;
-	background-image: url('../images/map-image.png');
-	background-position: center;
-	background-repeat: no-repeat;
-	text-align: center;
+  background-color: #303030;
+  background-image: url('../images/map-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 #contacto h2{
-	color: white;
+  color: white;
 }
 
 #contacto input{
-	border: 1px solid #ccc;
-	border-radius: 3px;
-	padding: 20px;
-	width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 20px;
+  width: 400px;
 }
 
 #contacto textarea{
-	margin: 20px 0;
-	padding: 20px;
-	width: 400px;
+  margin: 20px 0;
+  padding: 20px;
+  width: 400px;
 }
 
 #contacto button{
-	background-color: #fed136;
-	border-color: #fed136;
-	border-radius: 3px;
-	color: white;
-	font-size: 18px;
-	font-weight: bold;
-	line-height: 1;
-	padding: 20px 40px;
+  background-color: #fed136;
+  border-color: #fed136;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 20px 40px;
 }
 
 footer{
-	padding: 90px 0;
-	text-align: center;
-	font-size: 18px;
+  padding: 90px 0;
+  text-align: center;
+  font-size: 18px;
 }
 
 .home-wrapper{
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/background.jpg') no-repeat center top;
-	background-size: cover;
-	background-attachment: fixed;
-	color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/background.jpg') no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
 }
 
 .container{
-	margin-left: auto;
-	margin-right: auto;
-	width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 992px;
 }
